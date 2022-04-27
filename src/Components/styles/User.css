@@ -1,0 +1,21 @@
+.user-container {
+    display: flex;
+    border-radius: 20px;
+    margin: 50px 0;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 2px #0000005e;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-user-container {
+    display: flex;
+}
+.avatar {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.user-datas {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
